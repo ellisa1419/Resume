@@ -1,0 +1,82 @@
+ELLISA KHOJA
+LinkedIn: https://www.linkedin.com/in/ellisa-khoja/
+Github: https://github.com/ellisa1419
+
+Email : ellisa.khoja@gmail.com
+Mobile : +1-518-423-7196
+
+Education
+•University at Albany, SUNY
+
+Albany, NY
+
+Master of Science in Computer Science; GPA: 3.5
+
+Aug 2017 - Dec 2018
+
+Kalol Institute of Technology and Research Center
+Bachelor of Engineering in Computer Engineering; GPA: 3.4
+
+Gujarat, India
+Aug. 2010 – July. 2014
+
+Experience
+•University at Albany - Research Assistant
+
+Albany, NY
+
+Sept 2017 - Present
+
+◦ DSARMD: Worked on improving performance of DSARMD project of IARPA to calculate social linguistic scores
+of leadership, task control, topic control for the chat room data using Algorithms, NLP library, Stanford Tagger,
+Java and Weka Machine Learning
+◦ SimOn: Worked on Social Simulation project of DARPA to generate simulation of Github Events from the past 2
+years Github archive data using Java, Python, Scala, Markov chain model
+
+•CIGNEX Datamatics - Senior Software Engineer Ahmedabad, India July 2016 - July 2017
+
+◦ Hotel Operations Management: Worked on upgrading existing Application from Java 1.6 to 1.8 and upgraded
+Hibernate and Jboss versions. Re-coded ORM layer and performed database cleaning. Created new batch jobs and
+cron jobs to handle timely Report generation in Excel and PDF using Jasper Reports. Deployed application on
+Production and bug fixes. Tools used Hibernate, Spring, Java, Angular 1.x, Rest API
+
+•
+
+CIGNEX Datamatics - Software Engineer
+
+Ahmedabad, India
+
+July 2014 - June 2016
+
+◦ Franchise Management Platform: Developed application to manage Franchise operations including contracts in
+Alfresco, location selection, license, Employee Training, Revenue Reports and Inspection Module using Java,
+Liferay 6.x, MySQL, Rest API
+◦ MSA: Developed module for Advance Search using Jquery and AJAX using varied search combination for hotel
+brands, location, revenue. Retrived document, articles, and wikis based on user’s permission and role.
+
+•
+
+CIGNEX Datamatics - Software Engineer, Intern
+
+Ahmedabad, India
+
+Jan 2014 - May 2014
+
+◦ Interaction Center: As a part of this development we integrated GNATS tool, developed a custom query parser,
+live dashboard showing records using jquery datatable with sorting, filtering features. We have created a common
+portlet that displays the records as per selected template and the user can change the template if required. Tools:
+Liferay, JQuery datatable, Java, Hibernate
+
+Programming Skills
+• Languages: Scala, Python, Javascript, C++, SQL, Java, J2EE, Hibernate, Web Services
+• Technologies: Eclipse, Netbeans, SVN, Git, IntelliJ, Pycharm
+
+Personal & Academic Projects
+• Query Expansion Using Wordnet: Query Expansion using Wordnet to add synonyms for each token in query to
+improve the precision and recall using lucene search engine in Information Retrieval. Languages: Python, Lucene
+• Simple DB- Java Application: Created Simple-db java application to store , read, iterate and update the tuples.
+Language: Java
+• Twitter Bots Detection: Used Twitter API to retrieve tweets and calculated bot score using varied matrics for
+language size and time of tweets and Social Circle of user. Language: Python
+
+
