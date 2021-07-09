@@ -1,0 +1,155 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\section{ELLISA KHOJA - AWS Certified Solution Architect}
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+ \href{https://www.linkedin.com/in/ellisa-khoja/}{linkedin.com/in/ellisa-khoja/}
+  & \href{mailto:ellisa.khoja@gmail.com}{ellisa.khoja@gmail.com}\\  \href{https://github.com/ellisa1419}{github.com/ellisa1419}
+   & 518-423-7196 
+\end{tabular*}
+
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Technologies}{:  AWS, Java, Kotlinn, Docker,  Python, REST/Web Services,  React Redux}
+    } 
+    \item{
+      \textbf{Databases \& Tools}{: IntelliJ, Pycharm, Git, MySQL, Postgresql, Oracle , MongoDB}
+    }
+    \item{
+      \textbf{Achievements}: \href{https://www.youracclaim.com/badges/baccadaa-17ec-4695-8e1d-9e8d7d23c62f}{AWS Certified Solution Architect - Associate } 
+    }
+  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+  \resumeSubheading
+    {Fuze - Software Engineer}{New York, NY}
+    {Feb 2019 - Present}{}
+    \resumeItemListStart
+     \resumeItem{Contact Management}
+        {Building scalable API exposed java micro-services for creating and updating contacts. Connected third-party applications such as Google, Microsoft and Salesforce for on-demand search.  Lead initiative and implemented group privacy policies to limit user's visibility while collaborating with multiple teams. Writing junit testcases using jukito, component test case using cucumber and kotlin and doing database design in MongoDB. Handled AWS operations for monitoring Cloudwatch Alarms and Beanstalk deployment. Creating static website for internal tool using react-redux framework and hosted on S3. Developing graph and metrics in prometheus and graphanna. I have handled high priority customer tickets for quick resolution and owned two services from coding, testing, deploying and maintaining. Handled communication with client teams such as Mobile, Web, Backoffice and Meetings team and collaborated on numerous initiatives }
+        
+    \resumeItemListEnd
+    
+  \resumeSubheading
+      {SUNY Research Foundation - Research Assistant}{Albany, NY}
+      {Dec 2017 - Dec 2018 }{}
+      \resumeItemListStart
+      \resumeItem{PANACEA}
+          {Working with an interdisciplinary team across multiple sites with the goal of identifying the Social Engineering attacks in emails for D.A.R.P.A ASED challenge. Built the stylistic classifier for enron email dataset for authorship verification using Python Email Parser.  Predicted DialogActs for chat/email conversations using lexical-syntactical features like N-grams, Stanford POS, Named Entity Tagger and NLTK library. }
+      
+      \resumeItemListEnd
+  
+    \resumeSubheading
+      {Edwards Lifesciences - Software Engineer Intern}{Irvine, CA}
+      {May 2018 - August 2018}{}
+      \resumeItemListStart
+        \resumeItem{Critical Care - Algorithms}{
+             Collected data from unstructured excel sheet format, pre-processed and imported data into PostgreSQL using Python SQLAlchemy. Parallelized the writes to improve the speed and wrote api to expose the data and read/write queries using python. Explored NoSQL databases like Cassandra for timeseries data. Performed build on ec2 instances and uploaded data to s3 buckets. 
+            }
+      \resumeItemListEnd
+   
+     
+    \resumeSubheading
+      {CIGNEX Datamatics -  Software Engineer}{Ahmedabad, India}
+      {July 2014 - July 2017}
+      {}
+      \resumeItemListStart
+        \resumeItem{Hotel Operations Management}
+          { Worked on Hotel Operation project to migrate the project using Java and Spring framework. Worked on front side and server side to implement business logic using MVC design and performed database cleaning. Created and consumed Web Services  for restful calls, and worked with JWT tokens for authorization. Configured hudson build to deploy application on production and followed Agile workflows. }
+        \resumeItem{Franchise Management Platform}
+          {Developed application in Java and Liferay to manage franchise operations such as create franchise hierarchy for organizations and subdomains, CMS to share content amongst Franchises and assigning roles to users, created messaging portal for posting, announcement and generate notifications, created revenue reports using Jasper and worked on inspection Modules. Created rest services to expose data. Worked on both front end and backend and Database design. Used Java, Liferay 6.x, JQuery, Angular,  MySQL, Rest API}
+      \resumeItemListEnd
+  
+      
+    
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University at Albany, SUNY}{Albany, NY}
+      {Master of Science in Computer Science;  GPA: 3.8}{Aug 2017 - Dec 2018}
+    \resumeSubheading
+      {Kalol Institute of Technology and Research Center}{Gujarat, India}
+      {Bachelor of Engineering in Computer Engineering;  GPA: 3.4 }{Aug. 2010 -- July. 2014}
+  \resumeSubHeadingListEnd
+
+\end{document}
